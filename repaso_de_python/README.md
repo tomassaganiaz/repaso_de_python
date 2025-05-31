@@ -2,7 +2,7 @@
 
 Materia: Programacion 
 
-Ejercicio 1: Ordenación de Productos
+# Ejercicio 1: Ordenación de Productos
 
 Dado un diccionario donde las claves son nombres de productos y los valores son tuplas con (precio, cantidad en stock), escribe un programa que ordene los productos de mayor a menor precio y devuelva una lista ordenada de tuplas con (nombre, precio).
 productos = {
@@ -13,7 +13,7 @@ productos = {
     "Teclado": (50, 20)
 }
 
-Ejercicio 2: Agrupación de Datos
+# Ejercicio 2: Agrupación de Datos
 
 Escribe una función que reciba una lista de tuplas con (nombre, edad, ciudad) y devuelva un diccionario donde las claves sean las ciudades y los valores sean listas con los nombres de las personas que viven en esa ciudad.
 personas = [
@@ -26,7 +26,7 @@ personas = [
 ]
 
 
-Ejercicio 3: Cálculo de Promedios
+# Ejercicio 3: Cálculo de Promedios
 
 Crea una función que reciba un diccionario donde las claves sean nombres de estudiantes y los valores sean listas de calificaciones. La función debe devolver un nuevo diccionario con los promedios de cada estudiante redondeados a dos decimales.
 calificaciones = {
@@ -37,13 +37,13 @@ calificaciones = {
 }
 
 
-Ejercicio 4: Frecuencia de Palabras
+# Ejercicio 4: Frecuencia de Palabras
 
 Dado un texto ingresado por el usuario, escribe un programa que cuente la frecuencia de cada palabra y almacene los resultados en un diccionario. La salida debe mostrar las palabras ordenadas de mayor a menor frecuencia.
 texto = "python es un lenguaje de programación python es poderoso y versátil"
 
 
-Ejercicio 5: Unión de Listas de Diccionarios
+# Ejercicio 5: Unión de Listas de Diccionarios
 
 Escribe una función que reciba dos listas de diccionarios con información de empleados (nombre, cargo, salario). Si un empleado aparece en ambas listas, fusiona la información sumando los salarios. Devuelve una nueva lista con los datos fusionados.
 empleados_1 = [
@@ -57,7 +57,7 @@ empleados_2 = [
 ]
 
 
-Ejercicio 6: Análisis de Ventas
+# Ejercicio 6: Análisis de Ventas
 
 Dado un diccionario donde las claves son nombres de vendedores y los valores son listas de ventas realizadas en el mes, escribe una función que determine qué vendedor tuvo la mayor suma total de ventas.
 ventas = {
@@ -67,13 +67,13 @@ ventas = {
 }
 
 
-Ejercicio 7: Conversión de Listas a Diccionario
+# Ejercicio 7: Conversión de Listas a Diccionario
 
 Crea una función que reciba dos listas: una con nombres de personas y otra con sus edades. La función debe devolver un diccionario donde los nombres sean las claves y las edades sean los valores.
 nombres = ["Carlos", "Ana", "Pedro", "Marta"]
 edades = [28, 34, 25, 40]
 
-Ejercicio 8: Filtrado de Datos
+# Ejercicio 8: Filtrado de Datos
 
 Escribe una función que reciba un diccionario con nombres de ciudades y temperaturas en grados Celsius. La función debe devolver un nuevo diccionario con solo las ciudades donde la temperatura sea superior a 30°C.
 temperaturas = {
@@ -84,7 +84,7 @@ temperaturas = {
 }
 
 
-Ejercicio 9: Cifrado de Texto con Diccionarios
+# Ejercicio 9: Cifrado de Texto con Diccionarios
 
 Implementa un cifrado básico donde cada letra de una palabra es reemplazada por otra según un diccionario de mapeo (por ejemplo, {‘a’:’m’, ‘b’:’n’, …}). Escribe una función que cifre y descifre textos usando este diccionario.
 cifrado = {
@@ -97,7 +97,7 @@ cifrado = {
 mensaje = "hola mundo"
 
 
-Ejercicio 10: Análisis de Encuestas
+# Ejercicio 10: Análisis de Encuestas
 
 Se tiene una lista de tuplas donde cada tupla representa la respuesta de un usuario a una encuesta (nombre, edad, respuesta). Escribe una función que devuelva un diccionario donde las claves sean las respuestas y los valores sean listas con los nombres de las personas que eligieron esa respuesta.
 respuestas = [
@@ -110,7 +110,7 @@ respuestas = [
 
 # Trabajo Practico N_3: Repaso de Python Parte 2
 
-Ejercicio 11: Filtra las películas cuya duración sea mayor a 2 horas y su puntuación superior a 8.0.
+# Ejercicio 11: Filtra las películas cuya duración sea mayor a 2 horas y su puntuación superior a 8.0.
 
 peliculas = [
     {"titulo": "Inception", "duracion": 148, "puntuacion": 8.8},
@@ -119,7 +119,7 @@ peliculas = [
     {"titulo": "Titanic", "duracion": 195, "puntuacion": 7.8}
 ]
 
-Ejercicio 12: Agrupa a los estudiantes por curso a partir de una lista de tuplas.
+# Ejercicio 12: Agrupa a los estudiantes por curso a partir de una lista de tuplas.
 
 estudiantes = [
     ("Carlos", "Matemáticas"),
@@ -129,11 +129,11 @@ estudiantes = [
     ("Marta", "Historia")
 ]
 
-Ejercicio 13: Cuenta cuántas veces aparece cada letra en una lista de nombres.
+# Ejercicio 13: Cuenta cuántas veces aparece cada letra en una lista de nombres.
 
 nombres = ["Ana", "Juan", "Pedro", "Lucía", "Elena"]
 
-Ejercicio 14: Crea un ranking de jugadores basado en su puntaje total (suma de puntos por nivel).
+# Ejercicio 14: Crea un ranking de jugadores basado en su puntaje total (suma de puntos por nivel).
 
 jugadores = {
     "Player1": [100, 200, 150],
@@ -141,7 +141,7 @@ jugadores = {
     "Player3": [50, 150, 300]
 }
 
-Ejercicio 15: Transforma una lista de registros en un diccionario usando el identificador como clave.
+# Ejercicio 15: Transforma una lista de registros en un diccionario usando el identificador como clave.
 
 registros = [
     (101, "Ana", "Biología"),
@@ -149,7 +149,7 @@ registros = [
     (103, "Marta", "Física")
 ]
 
-Ejercicio 16: Crea un diccionario que indique cuántos productos hay por categoría.
+# Ejercicio 16: Crea un diccionario que indique cuántos productos hay por categoría.
 
 productos = [
     {"nombre": "Manzana", "categoria": "Fruta"},
@@ -159,7 +159,7 @@ productos = [
     {"nombre": "Plátano", "categoria": "Fruta"}
 ]
 
-Ejercicio 17: Fusiona dos listas de precios de productos, quedándote con el precio más bajo para cada producto.
+# Ejercicio 17: Fusiona dos listas de precios de productos, quedándote con el precio más bajo para cada producto.
 
 precios_1 = {
     "Arroz": 1.20,
@@ -174,7 +174,7 @@ precios_2 = {
 }
 
 
-Ejercicio 18: Elimina duplicados de una lista de tuplas manteniendo solo la primera ocurrencia.
+# Ejercicio 18: Elimina duplicados de una lista de tuplas manteniendo solo la primera ocurrencia.
 
 transacciones = [
     ("Compra", 100),
@@ -184,7 +184,7 @@ transacciones = [
     ("Transferencia", 200)
 ]
 
-Ejercicio 19: Determina el número de empleados por departamento.
+# Ejercicio 19: Determina el número de empleados por departamento.
 
 empleados = [
     {"nombre": "Carlos", "departamento": "IT"},
@@ -194,7 +194,7 @@ empleados = [
     {"nombre": "Lucía", "departamento": "HR"}
 ]
 
-Ejercicio 20: Agrupa una lista de fechas por año.
+# Ejercicio 20: Agrupa una lista de fechas por año.
 
 fechas = [
     "2022-05-01",
